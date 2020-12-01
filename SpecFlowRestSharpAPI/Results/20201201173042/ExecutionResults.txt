@@ -1,0 +1,28 @@
+
+Running Test scenario - GetInformationFromLocationOnProvidingCityAndCountryFromAPI("Utrecht","NL",null)
+Endpoint ping successfull
+City: Utrecht
+Country Code: NL
+Latitude: 52.117
+Longitud: 5.067
+TEST RESULT - PASS
+
+Running Test scenario - GetInformationFromLocationOnProvidingCityAndCountryFromAPI("Frankfurt","de",null)
+Endpoint ping successfull
+City: Frankfurt
+Country Code: DE
+Latitude: 50.1072
+Longitud: 8.66375
+TEST RESULT - PASS
+
+Running Test scenario - GetInformationFromLocationOnProvidingCityAndCountryFromAPI("paris","FR",null)
+Endpoint ping successfull
+City: Paris
+Country Code: FR
+Latitude: 48.856614
+Longitud: 2.3522219
+TEST RESULT - PASS
+
+Running Test scenario - GetInformationFromLocationOnProvidingCityAndCountryFromAPI("nocity","nocountry",null)
+Endpoint ping successfull
+TEST RESULT - FAIL
